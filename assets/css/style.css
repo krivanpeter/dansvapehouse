@@ -1,0 +1,12 @@
+body{
+    background-image: url("../images/background.png");
+}
+
+.listborder .listel{
+    border-style: solid;
+}
+
+.logo{
+  max-width: 30%;
+  height: auto;
+}
