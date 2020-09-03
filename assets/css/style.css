@@ -10,3 +10,19 @@ body{
   max-width: 30%;
   height: auto;
 }
+
+.menuitem {
+    margin: 20px;
+    height: 85px;
+}
+
+.menuitem a {
+    text-decoration: none;
+    color: #ffdc4c;
+    height: 85px;
+    font-size: 25px;
+}
+
+.menuitem a i {
+    margin: 10px;
+}
