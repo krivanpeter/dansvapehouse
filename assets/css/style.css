@@ -6,23 +6,56 @@ body{
     border-style: solid;
 }
 
-.logo{
-  max-width: 30%;
-  height: auto;
+/*------------------------------NAVBAR*/
+
+.navbar-nav {
+    padding: 0px;
 }
 
 .menuitem {
-    margin: 20px;
-    height: 85px;
+    height: 67px;
 }
 
 .menuitem a {
     text-decoration: none;
     color: #ffdc4c;
-    height: 85px;
-    font-size: 25px;
+    height: 67px;
 }
 
 .menuitem a i {
-    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    display: block;
+    color: #ffdc4c;
+    font-size: 20px;
+}
+
+.menuitem a span {
+    display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+/*------------------------------IMAGES*/
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.logo{
+  max-width: 150px;
+  height: auto;
+}
+
+#bankhol-opening{
+    width: auto;
+    max-height: 450px;
+}
+
+.iced-it{
+    width: 300px;
+    height: 350px;
 }
